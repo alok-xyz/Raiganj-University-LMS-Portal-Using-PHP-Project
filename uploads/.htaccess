@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{REQUEST_URI} ^/rgulms/admin/?$ [NC]
+RewriteRule ^$ /rgulms/admin/admin_login.php [L,R=301]

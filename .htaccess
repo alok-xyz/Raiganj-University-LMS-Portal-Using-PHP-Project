@@ -1,0 +1,6 @@
+RewriteEngine On
+Options -Indexes
+ErrorDocument 404 /rgulms/404.php
+DirectoryIndex login.php
+
+
